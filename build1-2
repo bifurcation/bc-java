@@ -114,6 +114,7 @@ find $jdk12src -name "*.java" -exec scripts/usejcecert.sh \{\} \;
     rm -rf org/bouncycastle/math/ec/test
     rm -rf org/bouncycastle/pqc/math/test
     rm -rf org/bouncycastle/crypto/tls/test
+    rm -rf org/bouncycastle/crypto/mls/test
     rm -rf org/bouncycastle/crypto/test/GCMReorderTest.java
     rm -rf org/bouncycastle/crypto/test/NISTECCTest.java
     rm -rf org/bouncycastle/jce/ECPointUtil.java
@@ -276,6 +277,7 @@ then
             org.bouncycastle.crypto.test \
             org.bouncycastle.crypto.examples \
             org.bouncycastle.crypto.tls \
+            org.bouncycastle.crypto.mls \
             org.bouncycastle.util.encoders \
             org.bouncycastle.util.test) > /dev/null \
 
@@ -368,6 +370,7 @@ then
         org.bouncycastle.crypto.signers \
         org.bouncycastle.crypto.test \
         org.bouncycastle.crypto.tls \
+        org.bouncycastle.crypto.mls \
         org.bouncycastle.crypto.examples \
         org.bouncycastle.jce \
         org.bouncycastle.jce.cert \

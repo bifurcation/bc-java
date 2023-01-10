@@ -60,6 +60,7 @@ do
    --add-modules org.bouncycastle.pkix \
    --add-modules org.bouncycastle.provider \
    --add-modules org.bouncycastle.tls \
+   --add-modules org.bouncycastle.mls \
    --add-modules org.bouncycastle.util \
    --add-opens org.bouncycastle.provider/org.bouncycastle.jcajce.provider.symmetric=ALL-UNNAMED \
    --add-opens org.bouncycastle.provider/org.bouncycastle.jcajce.provider.digest=ALL-UNNAMED \

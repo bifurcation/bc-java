@@ -7,6 +7,7 @@ dependencies {
   implementation project(":pkix")
   implementation project(":prov")
   implementation project(":tls")
+  implementation project(":mls")
   testImplementation group: 'junit', name: 'junit', version: '4.11'
 }
 

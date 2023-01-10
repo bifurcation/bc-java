@@ -9,6 +9,8 @@ sh add_module.sh util
 
 sh add_module.sh tls
 
+sh add_module.sh mls
+
 sh add_module.sh pkix
 
 sh add_module.sh mail

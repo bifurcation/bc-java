@@ -178,6 +178,7 @@ then
         rm -r src/org/bouncycastle/math/ec/test
         rm -r src/org/bouncycastle/crypto/agreement/test
         rm -r src/org/bouncycastle/crypto/tls/test
+        rm -r src/org/bouncycastle/crypto/mls/test
         rm -r src/org/bouncycastle/i18n
         rm -r src/org/bouncycastle/openssl
         rm -r src/org/bouncycastle/apache
